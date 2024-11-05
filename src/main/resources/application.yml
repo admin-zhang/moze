@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/moze?useSSL=false&serverTimezone=UTC
+    username: root
+    password: Zhangzb1024
+  mybatis-plus:
+    mapper-locations: classpath:/mapper/*.xml
+    typeAliasesPackage: club.icoders.moze.entity
